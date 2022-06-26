@@ -10,6 +10,6 @@ public class Main {
            messageInterface.registerUser(secondMessageSubscriber);
            messageInterface.notifyUser(new Message("I am subscribed to a message"));
            messageInterface.unregisterUser(firstMessageSubscriber);
-           messageInterface.notifyUser(new Message("this message is inteneded only for subscribers"));
+           //messageInterface.notifyUser(new Message("this message is inteneded only for subscribers"));
     }
 }
